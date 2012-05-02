@@ -1,1 +1,6 @@
+0.02      2012-05-02 14:50:01 America/Denver
+          - Migrate from MooX::Types::MooseLike
+          to MooX::Types::MooseLike::Base
+
 0.01      2011-11-17 15:11:59 America/Denver
+          - Initial Release
