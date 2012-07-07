@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Show just the keys of deep data structure",
-  "AUTHOR" => "Mateu X. Hunter",
+  "AUTHOR" => "Mateu X Hunter <hunter\@missoula.org>",
   "BUILD_REQUIRES" => {
     "CGI" => 0,
     "English" => 0,
@@ -33,9 +33,10 @@ my %WriteMakefileArgs = (
     "Moo" => 0,
     "MooX::Types::MooseLike::Base" => 0,
     "Scalar::Util" => 0,
+    "diagnostics" => 0,
     "strictures" => 1
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
